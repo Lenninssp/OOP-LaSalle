@@ -1,5 +1,4 @@
-﻿using System;
-
+﻿
 namespace LibraryProject_V7
 {
     internal class Program
