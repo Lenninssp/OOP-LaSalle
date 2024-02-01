@@ -1,0 +1,15 @@
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.csproj.AssemblyReference.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.AssemblyInfoInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.AssemblyInfo.cs
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.csproj.CoreCompileInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/bin/Debug/net7.0/LibraryPriject_V7
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/bin/Debug/net7.0/LibraryPriject_V7.deps.json
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/bin/Debug/net7.0/LibraryPriject_V7.runtimeconfig.json
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/bin/Debug/net7.0/LibraryPriject_V7.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/bin/Debug/net7.0/LibraryPriject_V7.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/refint/LibraryPriject_V7.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/LibraryPriject_V7.genruntimeconfig.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V7/obj/Debug/net7.0/ref/LibraryPriject_V7.dll

@@ -1,0 +1,15 @@
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/bin/Debug/net7.0/LibraryProject_V6
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/bin/Debug/net7.0/LibraryProject_V6.deps.json
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/bin/Debug/net7.0/LibraryProject_V6.runtimeconfig.json
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/bin/Debug/net7.0/LibraryProject_V6.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/bin/Debug/net7.0/LibraryProject_V6.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.csproj.AssemblyReference.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.AssemblyInfoInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.AssemblyInfo.cs
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.csproj.CoreCompileInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/refint/LibraryProject_V6.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/LibraryProject_V6.genruntimeconfig.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V6/obj/Debug/net7.0/ref/LibraryProject_V6.dll

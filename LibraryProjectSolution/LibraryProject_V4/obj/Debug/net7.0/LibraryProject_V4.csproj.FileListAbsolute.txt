@@ -1,0 +1,30 @@
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.deps.json
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.runtimeconfig.json
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.csproj.AssemblyReference.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.AssemblyInfoInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.AssemblyInfo.cs
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.csproj.CoreCompileInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/refint/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.genruntimeconfig.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01-LenninSabogal(struct Book with constructors)/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/ref/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.deps.json
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.runtimeconfig.json
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/bin/Debug/net7.0/LibraryProject_V4.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.csproj.AssemblyReference.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.AssemblyInfoInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.AssemblyInfo.cs
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.csproj.CoreCompileInputs.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/refint/LibraryProject_V4.dll
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.pdb
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/LibraryProject_V4.genruntimeconfig.cache
+/Users/lenninsabogal/Coding/LaSalle/Week01 c#/LibraryProjectSolution/LibraryProject_V4/obj/Debug/net7.0/ref/LibraryProject_V4.dll
