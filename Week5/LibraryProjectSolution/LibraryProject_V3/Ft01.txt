@@ -1,0 +1,26 @@
+﻿
+
+Formative test:  Books Library
+
+I - Step 1
+  Refine the struct Book as following:
+  1- add 3 features for the book (attributes, fields ): these fields must be private
+  2- add its corresponding getter and setter (Set and Get methods)
+  3- add 2 constructors with parameters as following:
+  syntax:
+    3.1- public Book(int bookNumber, string bookTitle) // constructor with 2 parameters
+    3.2- public Book (int bookNumber, string bookTitle, string isbn , , )//constructor with 3 parameters
+
+ II-  Step 2
+  Refine the Main method as following:
+   Create 2 books: book3 and book4 
+    -book3 will be created with the parameterless constructor and data will be set using the setters
+    -book4 will be created using the constructor with the 3 parameters
+
+ III Setp 3
+ Refine the Main method as following:
+
+ 1- declare an array of struct Book
+ 2-  this array
+ 3- add the books into an array of books
+

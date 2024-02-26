@@ -1,0 +1,15 @@
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/bin/Debug/net7.0/LibraryProject_V7M2(enum)
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/bin/Debug/net7.0/LibraryProject_V7M2(enum).deps.json
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/bin/Debug/net7.0/LibraryProject_V7M2(enum).runtimeconfig.json
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/bin/Debug/net7.0/LibraryProject_V7M2(enum).dll
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/bin/Debug/net7.0/LibraryProject_V7M2(enum).pdb
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).csproj.AssemblyReference.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).GeneratedMSBuildEditorConfig.editorconfig
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).AssemblyInfoInputs.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).AssemblyInfo.cs
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).csproj.CoreCompileInputs.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).dll
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/refint/LibraryProject_V7M2(enum).dll
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).pdb
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/LibraryProject_V7M2(enum).genruntimeconfig.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/Week5/LibraryProjectSolution/LibraryProject_V7M2(enum)/obj/Debug/net7.0/ref/LibraryProject_V7M2(enum).dll
