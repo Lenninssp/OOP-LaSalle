@@ -1,0 +1,19 @@
+﻿
+
+OBJECTIVE:
+
+
+1- Windows Forms(School Library):
+
+    1- Adding a new data type in the business requirements:
+	   folder bus:
+	             1.1-   enum data type   :   EnumLanguage					
+		         1.2- struct data type   : Date
+		         1.3- class  data type   :   Book
+				 1.4- class diagram        : classDiagramLibrary
+		
+    2- Adding a new control in the Form to take account of the enum data type
+
+--------------------------------------------------	
+	
+2- Windows Forms Contact List
