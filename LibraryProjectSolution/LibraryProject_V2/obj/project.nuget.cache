@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RdBEAaNvY2/kRwXwUw4tGNaBCiwloRsPNJTxqQrwXga7oLux04NKG3GxAYh/BJDQbU4F0c5nBcWYuX3/MF7glA==",
+  "dgSpecHash": "G9fJk7fOcIJOcE+0m1wRRgvHUFh5OtfKTeEUQgonb2hNcQSSt3usvJvxyWTEDrxi5PKldMJeAwe9sBz9Xt7UzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Expo\\OneDrive - College LaSalle\\Documents\\04 Oct 2023_P16\\LibraryProjectSolution\\LibraryProject_V2\\LibraryProject_V2.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\lennin\\Developer\\lasalle\\OOP-LaSalle\\LibraryProjectSolution\\LibraryProject_V2\\LibraryProject_V2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -3,6 +3,7 @@
 namespace LibraryProject_V1
 {
    //Definition of the struct Book
+   //sexy program ade by lennin sabogal
    struct Book
     {    
         public int bookNumber;
