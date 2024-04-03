@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "ljlYoP/h+fV5Zt6o9vmaYHw/KRMVbAWPm0fnaUipXz91GSDh1RMQ3FRKqbGFtKSr1jw/NSum1lJAjXsYXyrUvA==",
+  "success": true,
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\lennin\\Developer\\lasalle\\OOP-LaSalle\\LibraryProjectSolution\\LibraryProject_V3\\LibraryProject_V3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\lenni\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

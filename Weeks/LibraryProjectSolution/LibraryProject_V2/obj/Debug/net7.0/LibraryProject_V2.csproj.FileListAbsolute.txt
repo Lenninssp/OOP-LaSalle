@@ -1,0 +1,14 @@
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.AssemblyInfoInputs.cache
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.AssemblyInfo.cs
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.csproj.CoreCompileInputs.cache
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\bin\Debug\net7.0\LibraryProject_V2.exe
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\bin\Debug\net7.0\LibraryProject_V2.deps.json
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\bin\Debug\net7.0\LibraryProject_V2.runtimeconfig.json
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\bin\Debug\net7.0\LibraryProject_V2.dll
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\bin\Debug\net7.0\LibraryProject_V2.pdb
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.dll
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\refint\LibraryProject_V2.dll
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.pdb
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\LibraryProject_V2.genruntimeconfig.cache
+C:\Users\Expo\OneDrive - College LaSalle\Documents\04 Oct 2023_P16\LibraryProjectSolution\LibraryProject_V2\obj\Debug\net7.0\ref\LibraryProject_V2.dll

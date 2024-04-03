@@ -1,0 +1,31 @@
+﻿
+C# Name Convention:
+
+1- struct must start with upercase letter:
+        struct Book
+        struct Employee
+
+       struct SalariedEmployee
+       struct HourlyEmployee
+       struct CommissionEmployee
+
+2- variable must be lowercase
+     int value;
+     int bookNumber; 
+  or   int book_number;
+     string socialSecurityNumber;
+  or   string social_security_number
+
+3- constant
+   const int MAX = 2;
+   const int MAX_ROWS = 2;
+   const int MAX_COLS = 3
+
+4- Functions(Methods) 
+functions must start with upercase letter
+   Main()
+   Print()
+   Search()
+   SortByBookNumber()
+
+

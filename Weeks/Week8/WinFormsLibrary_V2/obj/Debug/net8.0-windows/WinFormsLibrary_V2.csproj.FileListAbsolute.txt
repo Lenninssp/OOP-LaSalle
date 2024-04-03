@@ -1,0 +1,17 @@
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\bin\Debug\net8.0-windows\WinFormsLibrary_V2.exe
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\bin\Debug\net8.0-windows\WinFormsLibrary_V2.deps.json
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\bin\Debug\net8.0-windows\WinFormsLibrary_V2.runtimeconfig.json
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\bin\Debug\net8.0-windows\WinFormsLibrary_V2.dll
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\bin\Debug\net8.0-windows\WinFormsLibrary_V2.pdb
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.user.Form1.resources
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.csproj.GenerateResource.cache
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.GeneratedMSBuildEditorConfig.editorconfig
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.AssemblyInfoInputs.cache
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.AssemblyInfo.cs
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.csproj.CoreCompileInputs.cache
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.sourcelink.json
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.dll
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\refint\WinFormsLibrary_V2.dll
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.pdb
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\WinFormsLibrary_V2.genruntimeconfig.cache
+\\wsl.localhost\Ubuntu\home\lennin\Developer\lasalle\OOP-LaSalle\Week8\WinFormsLibrary_V2\obj\Debug\net8.0-windows\ref\WinFormsLibrary_V2.dll
