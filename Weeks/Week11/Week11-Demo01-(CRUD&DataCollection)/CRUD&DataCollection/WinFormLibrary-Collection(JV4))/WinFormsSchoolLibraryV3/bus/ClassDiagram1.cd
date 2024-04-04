@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="    &lt;&lt; IS &gt;&gt;">
+    <Position X="3.556" Y="4.181" Height="0.389" Width="0.922" />
+  </Comment>
+  <Class Name="WinFormsSchoolLibraryV3.bus.Item">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAASAAAQEgAAkAAAAAAAAABAAAAAwAAAAAAAAA=</HashCode>
+      <FileName>bus\Item.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="language" />
+      <Field Name="publishedDate" />
+      <Field Name="type" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WinFormsSchoolLibraryV3.bus.Book">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>bus\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WinFormsSchoolLibraryV3.bus.CompactDisk">
+    <Position X="6.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>bus\CompactDisk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="WinFormsSchoolLibraryV3.bus.Date">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAJAAAAAAAAAAAAAAAAAQAAAAEAQAAAAAAAAA=</HashCode>
+      <FileName>bus\Date.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="WinFormsSchoolLibraryV3.bus.EnumLanguage">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAgAAAAABCAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>bus\EnumLanguage.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="WinFormsSchoolLibraryV3.bus.EnumItemType">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAACAAACA=</HashCode>
+      <FileName>bus\Item.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

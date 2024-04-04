@@ -162,6 +162,11 @@ namespace MIdterm
         {
 
         }
+
+        private void CodeBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

@@ -1,0 +1,25 @@
+﻿OBJECTIVE:
+
+Windows Forms(School Library):
+
+1- business  layer:
+ 
+
+                         <class> Item
+						 -----------
+						 - number                                
+	                     - title                                  
+	                     - language                                                             
+		                 - publishedDate
+
+
+						    << IS >>
+						   << EXTENDS>>
+						   <<INHERITS>>
+
+
+
+	<class>	Book                          <class> CompactDisk
+		--------                                ------------
+		- pages                                -  capacity 
+

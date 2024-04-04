@@ -125,6 +125,7 @@
             CodeBox.Name = "CodeBox";
             CodeBox.Size = new Size(149, 27);
             CodeBox.TabIndex = 6;
+            CodeBox.TextChanged += CodeBox_TextChanged;
             // 
             // TitleBox
             // 
