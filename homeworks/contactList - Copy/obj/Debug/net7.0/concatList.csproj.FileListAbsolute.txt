@@ -1,0 +1,15 @@
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/bin/Debug/net7.0/concatList
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/bin/Debug/net7.0/concatList.deps.json
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/bin/Debug/net7.0/concatList.runtimeconfig.json
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/bin/Debug/net7.0/concatList.dll
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/bin/Debug/net7.0/concatList.pdb
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.csproj.AssemblyReference.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.AssemblyInfoInputs.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.AssemblyInfo.cs
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.csproj.CoreCompileInputs.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.dll
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/refint/concatList.dll
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.pdb
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/concatList.genruntimeconfig.cache
+/Users/lenninsabogal/Developer/LaSalle/OOP/homeworks/concatList/obj/Debug/net7.0/ref/concatList.dll

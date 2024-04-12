@@ -18,15 +18,41 @@ namespace CounterApp.bus
             this.maxLimit = 0;
         }
 
-        public ModuloNCounter(int serial, int value, EnumColor color, Date date, EnumCounterType type, int maxLimit)
-            : base(serial, value, color, date, type)
+        public ModuloNCounter(int serial, int Vaalue, EnumColor color, Date date, EnumCounterType type, int maxLimit)
+            : base(serial, Vaalue, color, date, type)
         {
             this.maxLimit = maxLimit;
         }
 
-        public string GetState()
+        public override string GetState()
         {
-            return $"{base.GetState()} {maxLimit}";
+            string state;
+            state = base.GetState() + " | " + this.maxLimit;
+            return state;
+        }
+
+
+        public override void Reset()
+        {
+            this.Vaalue = 1;
+        }
+
+        public override void Increment()
+        {
+            this.Vaalue = this.Vaalue + 2;
+        }
+        public override void Increment(int Vaalue)
+        {
+            this.Vaalue = this.Vaalue + Vaalue;
+        }
+
+        public override void Decrement()
+        {
+            this.Vaalue = this.Vaalue - 2;
+        }
+        public override void Decrement(int value)
+        {
+            this.Vaalue = this.Vaalue - value;
         }
     }
 }

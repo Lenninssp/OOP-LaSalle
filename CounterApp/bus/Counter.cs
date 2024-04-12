@@ -1,9 +1,10 @@
+using CountersFactory.bus;
 using System.Text.Json.Serialization;
 
 namespace CounterApp.bus
 {
     [Serializable]
-    public class Counter : ICounter
+    public abstract class Counter : ICountable, IPrintable
     {
         private int serial;
         private int vaalue;
@@ -11,18 +12,6 @@ namespace CounterApp.bus
         private Date daate;
         private EnumCounterType type;
         private int count = 0;
-
-
-        public void countUp()
-        {
-            Console.WriteLine("The count has gone up");
-            count++;
-        }
-        public void reset()
-        {
-            Console.WriteLine("The count has reseted");
-            count = 0;
-        }
 
         public int Serial
         {
@@ -73,10 +62,21 @@ namespace CounterApp.bus
             this.type = type;
         }
 
-        public string GetState()
+        public virtual string GetState()
         {
             return $"{serial} {vaalue} {color} {daate.getState()} {type}";
         }
+
+
+        public virtual void Reset()
+        {
+            this.vaalue = 0;
+        }
+        public abstract void Increment();
+        public abstract void Decrement();
+
+        public abstract void Increment(int value);
+        public abstract void Decrement(int value);
 
     }
 }

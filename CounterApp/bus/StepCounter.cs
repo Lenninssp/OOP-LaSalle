@@ -3,7 +3,7 @@ using System;
 namespace CounterApp.bus
 {
     [Serializable]
-    public class StepCounter : Counter
+    public abstract class StepCounter : Counter
     {
         private int steps;
 
@@ -24,9 +24,29 @@ namespace CounterApp.bus
             this.steps = steps;
         }
 
-        public string GetState()
+        public override string GetState()
         {
-            return $"{base.GetState()} {steps}";
+            string state;
+            state = base.GetState() + " | " + this.steps;
+            return state;
+        }
+
+        public override void Increment()
+        {
+            this.Vaalue = this.Vaalue + 1;
+        }
+        public override void Increment(int value)
+        {
+            this.Vaalue = this.Vaalue + value;
+        }
+
+        public override void Decrement(int value)
+        {
+            this.Vaalue = this.Vaalue - value;
+        }
+        public override void Decrement()
+        {
+            this.Vaalue = this.Vaalue - 1;
         }
     }
 }

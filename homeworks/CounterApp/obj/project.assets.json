@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenni\\Developer\\lasalle\\OOP-LaSalle\\Homeworks\\CounterApp\\CounterApp\\CounterApp.csproj",
+      "projectUniqueName": "C:\\Users\\lenni\\Developer\\lasalle\\OOP-LaSalle\\Homeworks\\CounterApp\\CounterApp.csproj",
       "projectName": "CounterApp",
-      "projectPath": "C:\\Users\\lenni\\Developer\\lasalle\\OOP-LaSalle\\Homeworks\\CounterApp\\CounterApp\\CounterApp.csproj",
+      "projectPath": "C:\\Users\\lenni\\Developer\\lasalle\\OOP-LaSalle\\Homeworks\\CounterApp\\CounterApp.csproj",
       "packagesPath": "C:\\Users\\lenni\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenni\\Developer\\lasalle\\OOP-LaSalle\\Homeworks\\CounterApp\\CounterApp\\obj\\",
+      "outputPath": "C:\\Users\\lenni\\Developer\\lasalle\\OOP-LaSalle\\Homeworks\\CounterApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
