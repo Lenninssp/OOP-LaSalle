@@ -1,0 +1,16 @@
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\bin\Debug\net8.0\StudentMngtDataLayer.deps.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\bin\Debug\net8.0\StudentMngtDataLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\bin\Debug\net8.0\StudentMngtDataLayer.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\bin\Debug\net8.0\StudentMngtBusLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\bin\Debug\net8.0\StudentMngtBusLayer.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.csproj.AssemblyReference.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.AssemblyInfoInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.AssemblyInfo.cs
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.sourcelink.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentM.01215F0C.Up2Date
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\refint\StudentMngtDataLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\StudentMngtDataLayer.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtDataLayer\StudentMngtDataLayer\obj\Debug\net8.0\ref\StudentMngtDataLayer.dll

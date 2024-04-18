@@ -1,0 +1,12 @@
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\bin\Debug\net8.0\StudentMngtBusLayer.deps.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\bin\Debug\net8.0\StudentMngtBusLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\bin\Debug\net8.0\StudentMngtBusLayer.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.AssemblyInfoInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.AssemblyInfo.cs
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.csproj.CoreCompileInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.sourcelink.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\refint\StudentMngtBusLayer.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\StudentMngtBusLayer.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Weeks\student\StudentMngtBusLayer\StudentMngtBusLayer\obj\Debug\net8.0\ref\StudentMngtBusLayer.dll
