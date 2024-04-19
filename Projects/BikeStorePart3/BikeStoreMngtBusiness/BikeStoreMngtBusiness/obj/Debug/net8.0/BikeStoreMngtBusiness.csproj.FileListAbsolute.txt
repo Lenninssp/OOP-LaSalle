@@ -1,0 +1,12 @@
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\bin\Debug\net8.0\BikeStoreMngtBusiness.deps.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\bin\Debug\net8.0\BikeStoreMngtBusiness.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\bin\Debug\net8.0\BikeStoreMngtBusiness.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.AssemblyInfoInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.AssemblyInfo.cs
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.csproj.CoreCompileInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.sourcelink.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\refint\BikeStoreMngtBusiness.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\BikeStoreMngtBusiness.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtBusiness\BikeStoreMngtBusiness\obj\Debug\net8.0\ref\BikeStoreMngtBusiness.dll

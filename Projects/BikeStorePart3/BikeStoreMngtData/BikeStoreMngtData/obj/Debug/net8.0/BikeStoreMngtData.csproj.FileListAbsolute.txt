@@ -1,0 +1,16 @@
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\bin\Debug\net8.0\BikeStoreMngtData.deps.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\bin\Debug\net8.0\BikeStoreMngtData.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\bin\Debug\net8.0\BikeStoreMngtData.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\bin\Debug\net8.0\BikeStoreMngtBusiness.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\bin\Debug\net8.0\BikeStoreMngtBusiness.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.csproj.AssemblyReference.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.AssemblyInfoInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.AssemblyInfo.cs
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.csproj.CoreCompileInputs.cache
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.sourcelink.json
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStor.6699E1EF.Up2Date
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\refint\BikeStoreMngtData.dll
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\BikeStoreMngtData.pdb
+C:\Users\lenni\Developer\lasalle\OOP-LaSalle\Projects\BikeStorePart3\BikeStoreMngtData\BikeStoreMngtData\obj\Debug\net8.0\ref\BikeStoreMngtData.dll

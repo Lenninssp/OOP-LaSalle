@@ -1,0 +1,929 @@
+using BikeStoreMngtClient;
+using System.Diagnostics.Eventing.Reader;
+using System.Diagnostics.Metrics;
+using System.Reflection;
+using BikeStoreMngtBusiness;
+using BikeStoreMngtData;
+
+namespace BikeStoreMngtClient
+{
+    public partial class Form1 : Form
+    {
+        //Declare and create 5 lists
+        List<Bike>? listOfBikes = new List<Bike>();
+        List<Road>? listOfRoads = new List<Road>();
+        List<Mountain>? listOfMountains = new List<Mountain>();
+        List<Electric>? listOfElectrics = new List<Electric>();
+        List<Hybrid>? listOfHybrids = new List<Hybrid>();
+
+        //Declare 5 instances (5 objects or 5 references variables)
+        Bike currentBike;
+        Road currentRoad;
+        Mountain currentMountain;
+        Electric currentElectric;
+        Hybrid currentHybrid;
+
+        //Deckare an instance of the date class (an object of the datatype)
+        Date currentMadeDate;
+
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void buttonAdd_Click(object sender, EventArgs e)
+        {
+            //variables delcaration
+            int serialNumber;
+            int made;
+            string model;
+            double speed;
+            double wheelSize;
+            int currentDay, currentMonth, currentYear;
+
+            try
+            {
+                currentMadeDate = new Date();
+
+                //Bike Type
+                EnumBikeType currentBikeType;
+                Enum.TryParse(this.comboBoxBikeType.Text, out currentBikeType);
+
+                //Frame Type
+                EnumFrameType currentFrameType;
+                Enum.TryParse(this.comboBoxFrameType.Text, out currentFrameType);
+
+                //Color
+                EnumColor currentColor;
+                Enum.TryParse(this.comboBoxColor.Text, out currentColor);
+
+                //Bike features
+                serialNumber = Convert.ToInt32(this.textBoxSerialNumber.Text);
+                made = Convert.ToInt32(this.textBoxMade.Text);
+                model = this.textBoxModel.Text;
+                speed = Convert.ToDouble(this.textBoxSpeed.Text);
+                wheelSize = Convert.ToDouble(this.textBoxWheelSize.Text);
+
+                //Made Date
+                currentDay = Convert.ToInt32(this.textBoxDay.Text);
+                currentMonth = Convert.ToInt32(this.textBoxMonth.Text);
+                currentYear = Convert.ToInt32(this.textBoxYear.Text);
+
+                currentMadeDate.Day = currentDay;
+                currentMadeDate.Month = currentMonth;
+                currentMadeDate.Year = currentYear;
+
+                //Road 
+                if (currentBikeType == EnumBikeType.Road)
+                {
+                    currentRoad = new Road();
+
+                    currentRoad.Type = currentBikeType;
+                    currentRoad.SerialNumber = serialNumber;
+                    currentRoad.Made = made;
+                    currentRoad.Model = model;
+                    currentRoad.Speed = speed;
+                    currentRoad.WheelSize = wheelSize;
+                    currentRoad.FrameType = currentFrameType;
+                    currentRoad.Color = currentColor;
+                    currentRoad.MadeDate = currentMadeDate;
+
+                    try
+                    {
+                        currentRoad.SeatHeight = Convert.ToDouble(this.textBoxSeatHeight.Text);
+                        MessageBox.Show("Road bike saved");
+
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    if (DataCollection.GetBikeList() != null)
+                    {
+                        DataCollection.Add(currentRoad);
+                    }
+                }
+
+                else if (currentBikeType == EnumBikeType.Mountain)
+                {
+                    currentMountain = new Mountain();
+
+                    currentMountain.Type = currentBikeType;
+                    currentMountain.SerialNumber = serialNumber;
+                    currentMountain.Made = made;
+                    currentMountain.Model = model;
+                    currentMountain.Speed = speed;
+                    currentMountain.WheelSize = wheelSize;
+                    currentMountain.FrameType = currentFrameType;
+                    currentMountain.Color = currentColor;
+                    currentMountain.MadeDate = currentMadeDate;
+
+                    try
+                    {
+                        currentMountain.HeightFromGround = Convert.ToDouble(this.textBoxHeightFromGround.Text);
+                        EnumSuspension currentSuspension;
+                        Enum.TryParse(this.comboBoxSuspension.Text, out currentSuspension);
+                        currentMountain.Suspension = currentSuspension;
+                        MessageBox.Show("Mountain bike saved");
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    if (DataCollection.ListOfBikes != null)
+                    {
+                        DataCollection.Add(currentMountain);
+                    }
+                }
+
+                else if (currentBikeType == EnumBikeType.Electric)
+                {
+                    currentElectric = new Electric();
+
+                    currentElectric.Type = currentBikeType;
+                    currentElectric.SerialNumber = serialNumber;
+                    currentElectric.Made = made;
+                    currentElectric.Model = model;
+                    currentElectric.Speed = speed;
+                    currentElectric.WheelSize = wheelSize;
+                    currentElectric.FrameType = currentFrameType;
+                    currentElectric.Color = currentColor;
+                    currentElectric.MadeDate = currentMadeDate;
+
+                    try
+                    {
+                        currentElectric.BatteryIndicator = Convert.ToInt32(this.textBoxBatteryIndicator.Text);
+                        MessageBox.Show("Electric bike saved");
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    if (DataCollection.ListOfBikes != null)
+                    {
+                        DataCollection.Add(currentElectric);
+                    }
+                }
+
+                else if (currentBikeType == EnumBikeType.Hybrid)
+                {
+                    currentHybrid = new Hybrid();
+
+                    currentHybrid.Type = currentBikeType;
+                    currentHybrid.SerialNumber = serialNumber;
+                    currentHybrid.Made = made;
+                    currentHybrid.Model = model;
+                    currentHybrid.Speed = speed;
+                    currentHybrid.WheelSize = wheelSize;
+                    currentHybrid.FrameType = currentFrameType;
+                    currentHybrid.Color = currentColor;
+                    currentHybrid.MadeDate = currentMadeDate;
+
+                    try
+                    {
+                        EnumHybridType currentHybridType;
+                        Enum.TryParse(this.comboBoxHybridType.Text, out currentHybridType);
+                        currentHybrid.HybridType = currentHybridType;
+                        MessageBox.Show("Hybrid bike saved");
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+
+                    if (DataCollection.ListOfBikes != null)
+                    {
+                        DataCollection.Add(currentHybrid);
+                    }
+                }
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + "\n \t You must input a valid data");
+                this.textBoxSerialNumber.Focus();
+            }
+
+        }
+
+        private void buttonPrintBikes_Click(object sender, EventArgs e)
+        {
+            this.listBoxBikes.Items.Clear();
+
+            if (DataCollection.GetBikeList != null && DataCollection.GetBikeList().Count > 0 && this.listBoxBikes.Items.Count == 0)
+            {
+                foreach (Bike currentBike in DataCollection.GetBikeList())
+                {
+                    if (currentBike is Road)
+                    {
+                        currentRoad = (Road)currentBike;
+                        this.listBoxBikes.Items.Add(currentRoad.ToString());
+                    }
+
+                    else if (currentBike is Mountain)
+                    {
+                        currentMountain = (Mountain)currentBike;
+                        this.listBoxBikes.Items.Add(currentMountain.ToString());
+                    }
+
+                    else if (currentBike is Electric)
+                    {
+                        currentElectric = (Electric)currentBike;
+                        this.listBoxBikes.Items.Add(currentElectric.ToString());
+                    }
+
+                    else if (currentBike is Hybrid)
+                    {
+                        currentHybrid = (Hybrid)currentBike;
+                        this.listBoxBikes.Items.Add(currentHybrid.ToString());
+                    }
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("The list of bikes are already printed in the listBox or the list of item in memory is empty...");
+            }
+        }
+
+        private void buttonReset_Click_1(object sender, EventArgs e)
+        {
+            this.comboBoxBikeType.Text = EnumBikeType.Undefined.ToString();
+            this.comboBoxFrameType.Text = EnumFrameType.Undefined.ToString();
+            this.comboBoxColor.Text = EnumColor.Undefined.ToString();
+
+            this.textBoxSerialNumber.Text = string.Empty;
+            this.textBoxMade.Text = string.Empty;
+            this.textBoxModel.Text = string.Empty;
+            this.textBoxSpeed.Text = string.Empty;
+            this.textBoxWheelSize.Text = string.Empty;
+
+            this.textBoxDay.Text = string.Empty;
+            this.textBoxMonth.Text = string.Empty;
+            this.textBoxYear.Text = string.Empty;
+
+            this.textBoxSeatHeight.Text = string.Empty;
+            this.comboBoxSuspension.Text = EnumSuspension.Undefined.ToString();
+            this.textBoxHeightFromGround.Text = string.Empty;
+            this.textBoxBatteryIndicator.Text = string.Empty;
+            this.comboBoxHybridType.Text = EnumHybridType.Undefined.ToString();
+
+            this.textBoxSerialNumber.Focus();
+
+            this.listBoxBikes.Items.Clear();
+
+            this.buttonAdd.Enabled = true;
+        }
+
+        private void buttonExit_Click_1(object sender, EventArgs e)
+        {
+            MessageBox.Show("Application written by Alvaro Limaymanta Soria", "Event Programming with C#",
+            MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            this.Close();
+        }
+
+        private void buttonSearch_Click_1(object sender, EventArgs e)
+        {
+            bool found = false;
+            Bike bikeToSearch = null;
+
+            Road currentRoad;
+            Mountain currentMountain;
+            Electric currentElectric;
+            Hybrid currentHybrid;
+
+            if (DataCollection.GetBikeList != null)
+            {
+                foreach (Bike currentBike in DataCollection.GetBikeList())
+                {
+                    if (currentBike.SerialNumber == Convert.ToInt32(this.textBoxSerialNumber.Text))
+                    {
+                        found = true;
+                        bikeToSearch = currentBike;
+                        break;
+                    }
+                }
+            }
+
+            if (found)
+            {
+
+                if (bikeToSearch.Type == EnumBikeType.Road)
+                {
+                    currentRoad = (Road)bikeToSearch; //Casting
+                    MessageBox.Show("Road Bike Found! \n" + currentRoad.GetState(),
+                    "Event Programming with C#", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+
+                else if (bikeToSearch.Type == EnumBikeType.Mountain)
+                {
+                    currentMountain = (Mountain)bikeToSearch; //Casting
+                    MessageBox.Show("Mountain Bike Found! \n" + currentMountain.GetState(),
+                    "Event Programming with C#", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+
+                else if (bikeToSearch.Type == EnumBikeType.Electric)
+                {
+                    currentElectric = (Electric)bikeToSearch; //Casting
+                    MessageBox.Show("Electric Bike Found! \n" + currentElectric.GetState(),
+                    "Event Programming with C#", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+
+                else if (bikeToSearch.Type == EnumBikeType.Hybrid)
+                {
+                    currentHybrid = (Hybrid)bikeToSearch; //Casting
+                    MessageBox.Show("Hybird Bike Found! \n" + currentHybrid.GetState(),
+                    "Event Programming with C#", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("Bike not found...",
+                "Event Programming with C#", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            foreach (EnumColor bike in Enum.GetValues(typeof(EnumColor)))
+            {
+                this.comboBoxColor.Items.Add(bike);
+            }
+            this.comboBoxColor.Text = Convert.ToString(EnumColor.Undefined);
+
+            foreach (EnumBikeType bike in Enum.GetValues(typeof(EnumBikeType)))
+            {
+                this.comboBoxBikeType.Items.Add(bike);
+            }
+            this.comboBoxBikeType.Text = Convert.ToString(EnumBikeType.Undefined);
+
+            foreach (EnumSuspension suspension in Enum.GetValues(typeof(EnumSuspension)))
+            {
+                this.comboBoxSuspension.Items.Add(suspension);
+            }
+            this.comboBoxSuspension.Text = Convert.ToString(EnumSuspension.Undefined);
+
+            foreach (EnumFrameType frameType in Enum.GetValues(typeof(EnumFrameType)))
+            {
+                this.comboBoxFrameType.Items.Add(frameType);
+            }
+            this.comboBoxFrameType.Text = Convert.ToString(EnumFrameType.Undefined);
+
+            foreach (EnumHybridType hybridType in Enum.GetValues(typeof(EnumHybridType)))
+            {
+                this.comboBoxHybridType.Items.Add(hybridType);
+            }
+            this.comboBoxHybridType.Text = Convert.ToString(EnumHybridType.Undefined);
+        }
+
+        int currentIndex = -1;
+        private void listBoxBikes_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            currentIndex = this.listBoxBikes.SelectedIndex;
+
+            EnumBikeType currentBikeType;
+
+            this.listOfBikes = DataCollection.GetBikeList();
+
+            if (this.listOfBikes != null)
+            {
+                currentBikeType = this.listOfBikes[currentIndex].Type;
+
+                this.comboBoxBikeType.Text = Convert.ToString(currentBikeType);
+
+                if (currentIndex >= 0 && currentBikeType == EnumBikeType.Road)
+                {
+                    Road currentRoad = new Road();
+
+                    currentRoad = (Road)this.listOfBikes[currentIndex];
+
+                    this.textBoxSerialNumber.Text = currentRoad.SerialNumber.ToString();
+                    this.textBoxMade.Text = currentRoad.Made.ToString();
+                    this.textBoxModel.Text = currentRoad.Model.ToString();
+                    this.textBoxSpeed.Text = currentRoad.Speed.ToString();
+                    this.textBoxWheelSize.Text = currentRoad.WheelSize.ToString();
+
+                    this.comboBoxFrameType.Text = currentRoad.FrameType.ToString();
+                    this.comboBoxColor.Text = currentRoad.Color.ToString();
+
+                    this.textBoxDay.Text = currentRoad.MadeDate.Day.ToString();
+                    this.textBoxMonth.Text = currentRoad.MadeDate.Month.ToString();
+                    this.textBoxYear.Text = currentRoad.MadeDate.Year.ToString();
+
+                    this.textBoxSeatHeight.Text = currentRoad.SeatHeight.ToString();
+                }
+
+                else if (currentIndex >= 0 && currentBikeType == EnumBikeType.Mountain)
+                {
+                    Mountain currentMountain = new Mountain();
+
+                    currentMountain = (Mountain)this.listOfBikes[currentIndex];
+
+                    this.textBoxSerialNumber.Text = currentMountain.SerialNumber.ToString();
+                    this.textBoxMade.Text = currentMountain.Made.ToString();
+                    this.textBoxModel.Text = currentMountain.Model.ToString();
+                    this.textBoxSpeed.Text = currentMountain.Speed.ToString();
+                    this.textBoxWheelSize.Text = currentMountain.WheelSize.ToString();
+
+                    this.comboBoxFrameType.Text = currentMountain.FrameType.ToString();
+                    this.comboBoxColor.Text = currentMountain.Color.ToString();
+
+                    this.textBoxDay.Text = currentMountain.MadeDate.Day.ToString();
+                    this.textBoxMonth.Text = currentMountain.MadeDate.Month.ToString();
+                    this.textBoxYear.Text = currentMountain.MadeDate.Year.ToString();
+
+                    this.comboBoxSuspension.Text = currentMountain.Suspension.ToString();
+                    this.textBoxHeightFromGround.Text = currentMountain.HeightFromGround.ToString();
+                }
+
+                else if (currentIndex >= 0 && currentBikeType == EnumBikeType.Electric)
+                {
+                    Electric currentElectric = new Electric();
+
+                    currentElectric = (Electric)this.listOfBikes[currentIndex];
+
+                    this.textBoxSerialNumber.Text = currentElectric.SerialNumber.ToString();
+                    this.textBoxMade.Text = currentElectric.Made.ToString();
+                    this.textBoxModel.Text = currentElectric.Model.ToString();
+                    this.textBoxSpeed.Text = currentElectric.Speed.ToString();
+                    this.textBoxWheelSize.Text = currentElectric.WheelSize.ToString();
+
+                    this.comboBoxFrameType.Text = currentElectric.FrameType.ToString();
+                    this.comboBoxColor.Text = currentElectric.Color.ToString();
+
+                    this.textBoxDay.Text = currentElectric.MadeDate.Day.ToString();
+                    this.textBoxMonth.Text = currentElectric.MadeDate.Month.ToString();
+                    this.textBoxYear.Text = currentElectric.MadeDate.Year.ToString();
+
+                    this.textBoxBatteryIndicator.Text = currentElectric.BatteryIndicator.ToString();
+                }
+
+                else if (currentIndex >= 0 && currentBikeType == EnumBikeType.Hybrid)
+                {
+                    Hybrid currentHybrid = new Hybrid();
+
+                    currentHybrid = (Hybrid)this.listOfBikes[currentIndex];
+
+                    this.textBoxSerialNumber.Text = currentHybrid.SerialNumber.ToString();
+                    this.textBoxMade.Text = currentHybrid.Made.ToString();
+                    this.textBoxModel.Text = currentHybrid.Model.ToString();
+                    this.textBoxSpeed.Text = currentHybrid.Speed.ToString();
+                    this.textBoxWheelSize.Text = currentHybrid.WheelSize.ToString();
+
+                    this.comboBoxFrameType.Text = currentHybrid.FrameType.ToString();
+                    this.comboBoxColor.Text = currentHybrid.Color.ToString();
+
+                    this.textBoxDay.Text = currentHybrid.MadeDate.Day.ToString();
+                    this.textBoxMonth.Text = currentHybrid.MadeDate.Month.ToString();
+                    this.textBoxYear.Text = currentHybrid.MadeDate.Year.ToString();
+
+                    this.comboBoxHybridType.Text = currentHybrid.HybridType.ToString();
+                }
+            }
+        }
+
+        private void buttonUpdate_Click(object sender, EventArgs e)
+        {
+            EnumBikeType currentBikeType;
+            Enum.TryParse(this.comboBoxBikeType.Text, out currentBikeType);
+
+            if (DataCollection.ListOfBikes != null && currentIndex >= 0 && currentIndex < DataCollection.ListOfBikes.Count) //if we do not select a counter the message will appear without errors
+            {
+                currentBikeType = DataCollection.ListOfBikes[currentIndex].Type;
+            }
+
+            if (currentIndex >= 0 && listOfBikes != null)
+            {
+                if (currentBikeType == EnumBikeType.Road)
+                {
+                    Road currentRoad = new Road();
+
+                    currentRoad.Type = currentBikeType;
+                    currentRoad.SerialNumber = Convert.ToInt32(this.textBoxSerialNumber.Text);
+                    currentRoad.Made = Convert.ToInt32(this.textBoxMade.Text);
+                    currentRoad.Model = this.textBoxModel.Text;
+                    currentRoad.Speed = Convert.ToDouble(this.textBoxSpeed.Text);
+                    currentRoad.WheelSize = Convert.ToDouble(this.textBoxWheelSize.Text);
+
+                    EnumFrameType currentFrameType;
+                    Enum.TryParse(this.comboBoxFrameType.Text, out currentFrameType);
+                    currentRoad.FrameType = currentFrameType;
+
+                    EnumColor currentColor;
+                    Enum.TryParse(this.comboBoxColor.Text, out currentColor);
+                    currentRoad.Color = currentColor;
+
+                    Date currentDate = new Date();
+                    currentDate.Day = Convert.ToInt32(this.textBoxDay.Text);
+                    currentDate.Month = Convert.ToInt32(this.textBoxMonth.Text);
+                    currentDate.Year = Convert.ToInt32(this.textBoxYear.Text);
+                    currentRoad.MadeDate = currentDate;
+
+                    currentRoad.SeatHeight = Convert.ToDouble(this.textBoxSeatHeight.Text);
+
+                    //Remove the road bike at the current index
+                    DataCollection.RemoveAt(currentIndex);
+
+                    //Insert the updated bike counter at the currenIndex
+                    DataCollection.InsertAt(currentIndex, currentRoad);
+                }
+
+                if (currentBikeType == EnumBikeType.Mountain)
+                {
+                    Mountain currentMountain = new Mountain();
+
+                    currentMountain.Type = currentBikeType;
+                    currentMountain.SerialNumber = Convert.ToInt32(this.textBoxSerialNumber.Text);
+                    currentMountain.Made = Convert.ToInt32(this.textBoxMade.Text);
+                    currentMountain.Model = this.textBoxModel.Text;
+                    currentMountain.Speed = Convert.ToDouble(this.textBoxSpeed.Text);
+                    currentMountain.WheelSize = Convert.ToDouble(this.textBoxWheelSize.Text);
+
+                    EnumFrameType currentFrameType;
+                    Enum.TryParse(this.comboBoxFrameType.Text, out currentFrameType);
+                    currentMountain.FrameType = currentFrameType;
+
+                    EnumColor currentColor;
+                    Enum.TryParse(this.comboBoxColor.Text, out currentColor);
+                    currentMountain.Color = currentColor;
+
+                    Date currentDate = new Date();
+                    currentDate.Day = Convert.ToInt32(this.textBoxDay.Text);
+                    currentDate.Month = Convert.ToInt32(this.textBoxMonth.Text);
+                    currentDate.Year = Convert.ToInt32(this.textBoxYear.Text);
+                    currentMountain.MadeDate = currentDate;
+
+                    EnumSuspension currentSuspension;
+                    Enum.TryParse(this.comboBoxSuspension.Text, out currentSuspension);
+                    currentMountain.Suspension = currentSuspension;
+
+                    currentMountain.HeightFromGround = Convert.ToDouble(this.textBoxHeightFromGround.Text);
+
+                    //Remove the mountain bike at the current index
+                    DataCollection.RemoveAt(currentIndex);
+
+                    //Insert the updated bike at the currenIndex
+                    DataCollection.InsertAt(currentIndex, currentMountain);
+                }
+
+                if (currentBikeType == EnumBikeType.Electric)
+                {
+                    Electric currentElectric = new Electric();
+
+                    currentElectric.Type = currentBikeType;
+                    currentElectric.SerialNumber = Convert.ToInt32(this.textBoxSerialNumber.Text);
+                    currentElectric.Made = Convert.ToInt32(this.textBoxMade.Text);
+                    currentElectric.Model = this.textBoxModel.Text;
+                    currentElectric.Speed = Convert.ToDouble(this.textBoxSpeed.Text);
+                    currentElectric.WheelSize = Convert.ToDouble(this.textBoxWheelSize.Text);
+
+                    EnumFrameType currentFrameType;
+                    Enum.TryParse(this.comboBoxFrameType.Text, out currentFrameType);
+                    currentElectric.FrameType = currentFrameType;
+
+                    EnumColor currentColor;
+                    Enum.TryParse(this.comboBoxColor.Text, out currentColor);
+                    currentElectric.Color = currentColor;
+
+                    Date currentDate = new Date();
+                    currentDate.Day = Convert.ToInt32(this.textBoxDay.Text);
+                    currentDate.Month = Convert.ToInt32(this.textBoxMonth.Text);
+                    currentDate.Year = Convert.ToInt32(this.textBoxYear.Text);
+                    currentElectric.MadeDate = currentDate;
+
+                    currentElectric.BatteryIndicator = Convert.ToInt32(this.textBoxBatteryIndicator.Text);
+
+                    //Remove the electric bike at the current index
+                    DataCollection.RemoveAt(currentIndex);
+
+                    //Insert the updated bike at the currenIndex
+                    DataCollection.InsertAt(currentIndex, currentElectric);
+                }
+
+                if (currentBikeType == EnumBikeType.Hybrid)
+                {
+                    Hybrid currentHybrid = new Hybrid();
+
+                    currentHybrid.Type = currentBikeType;
+                    currentHybrid.SerialNumber = Convert.ToInt32(this.textBoxSerialNumber.Text);
+                    currentHybrid.Made = Convert.ToInt32(this.textBoxMade.Text);
+                    currentHybrid.Model = this.textBoxModel.Text;
+                    currentHybrid.Speed = Convert.ToDouble(this.textBoxSpeed.Text);
+                    currentHybrid.WheelSize = Convert.ToDouble(this.textBoxWheelSize.Text);
+
+                    EnumFrameType currentFrameType;
+                    Enum.TryParse(this.comboBoxFrameType.Text, out currentFrameType);
+                    currentHybrid.FrameType = currentFrameType;
+
+                    EnumColor currentColor;
+                    Enum.TryParse(this.comboBoxColor.Text, out currentColor);
+                    currentHybrid.Color = currentColor;
+
+                    Date currentDate = new Date();
+                    currentDate.Day = Convert.ToInt32(this.textBoxDay.Text);
+                    currentDate.Month = Convert.ToInt32(this.textBoxMonth.Text);
+                    currentDate.Year = Convert.ToInt32(this.textBoxYear.Text);
+                    currentHybrid.MadeDate = currentDate;
+
+                    EnumHybridType currentHybridType;
+                    Enum.TryParse(this.comboBoxHybridType.Text, out currentHybridType);
+                    currentHybrid.HybridType = currentHybridType;
+
+                    //Remove the hybrid bike at the current index
+                    DataCollection.RemoveAt(currentIndex);
+
+                    //Insert the updated bike at the currenIndex
+                    DataCollection.InsertAt(currentIndex, currentHybrid);
+                }
+            }
+
+            else
+            {
+                MessageBox.Show("Select from the ListBox the Bike to Update");
+            }
+            this.listBoxBikes.Items.Clear();
+        }
+
+        private void buttonDelete_Click(object sender, EventArgs e)
+        {
+            if (currentIndex >= 0 && this.listOfBikes != null)
+            {
+                DataCollection.ListOfBikes.RemoveAt(currentIndex);
+                MessageBox.Show("The selected bike has been removed from the list of bikes in memory");
+                this.listBoxBikes.Items.Clear();
+            }
+
+            else
+            {
+                MessageBox.Show("Choose from the ListBox the Bike to Remove");
+            }
+            this.listBoxBikes.Items.Clear();
+        }
+
+        private void buttonWriteToXmlFile_Click(object sender, EventArgs e)
+        {
+            if (DataCollection.ListOfBikes != null)
+            {
+                FileManager.SerializeToXMLFile(DataCollection.ListOfBikes);
+                MessageBox.Show("XML saved");
+
+            }
+        }
+
+        private void buttonReadFromXmlFile_Click(object sender, EventArgs e)
+        {
+
+            this.listOfBikes.Clear();
+
+            DataCollection.ListOfBikes = FileManager.DeserializeFromXmlFile();
+
+            if ((DataCollection.ListOfBikes = FileManager.DeserializeFromXmlFile()) != null)
+            {
+                foreach (Bike currentBike in DataCollection.ListOfBikes)
+                {
+                    if (currentBike is Road)
+                    {
+                        currentRoad = (Road)currentBike;
+
+                        this.listBoxBikes.Items.Add(currentRoad.GetState());
+                        MessageBox.Show("XML Read");
+                    }
+
+                    else if (currentBike is Mountain)
+                    {
+                        currentMountain = (Mountain)currentBike;
+
+                        this.listBoxBikes.Items.Add(currentMountain.GetState());
+                        MessageBox.Show("XML Read");
+
+                    }
+
+                    else if (currentBike is Electric)
+                    {
+                        currentElectric = (Electric)currentBike;
+
+                        this.listBoxBikes.Items.Add(currentElectric.GetState());
+                        MessageBox.Show("XML Read");
+
+                    }
+
+                    else if (currentBike is Hybrid)
+                    {
+                        currentHybrid = (Hybrid)currentBike;
+
+                        this.listBoxBikes.Items.Add(currentHybrid.GetState());
+                        MessageBox.Show("XML Read");
+
+                    }
+                }
+            }
+        }
+
+        private void comboBoxBikeType_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            EnumBikeType currentBikeType;
+
+            Enum.TryParse(this.comboBoxBikeType.Text, out currentBikeType);
+
+            if (currentBikeType == EnumBikeType.Road)
+            {
+                this.textBoxSeatHeight.Enabled = true;
+                this.comboBoxSuspension.Enabled = false;
+                this.textBoxHeightFromGround.Enabled = false;
+                this.textBoxBatteryIndicator.Enabled = false;
+                this.comboBoxHybridType.Enabled = false;
+            }
+
+            else if (currentBikeType == EnumBikeType.Mountain)
+            {
+                this.textBoxSeatHeight.Enabled = false;
+                this.comboBoxSuspension.Enabled = true;
+                this.textBoxHeightFromGround.Enabled = true;
+                this.textBoxBatteryIndicator.Enabled = false;
+                this.comboBoxHybridType.Enabled = false;
+            }
+
+            else if (currentBikeType == EnumBikeType.Electric)
+            {
+                this.textBoxSeatHeight.Enabled = false;
+                this.comboBoxSuspension.Enabled = false;
+                this.textBoxHeightFromGround.Enabled = false;
+                this.textBoxBatteryIndicator.Enabled = true;
+                this.comboBoxHybridType.Enabled = false;
+            }
+
+            else if (currentBikeType == EnumBikeType.Hybrid)
+            {
+                this.textBoxSeatHeight.Enabled = false;
+                this.comboBoxSuspension.Enabled = false;
+                this.textBoxHeightFromGround.Enabled = false;
+                this.textBoxBatteryIndicator.Enabled = false;
+                this.comboBoxHybridType.Enabled = true;
+            }
+
+            else if (currentBikeType == EnumBikeType.Undefined)
+            {
+                this.textBoxSeatHeight.Enabled = false;
+                this.comboBoxSuspension.Enabled = false;
+                this.textBoxHeightFromGround.Enabled = false;
+                this.textBoxBatteryIndicator.Enabled = false;
+                this.comboBoxHybridType.Enabled = false;
+            }
+        }
+
+        private void buttonPrintRoadBike_Click(object sender, EventArgs e)
+        {
+            this.listBoxBikes.Items.Clear();
+
+            foreach (Road currentRoad in DataCollection.GetBikeRoadList())
+            {
+                this.listBoxBikes.Items.Add(currentRoad.GetState());
+            }
+        }
+
+        private void buttonPrintMountainBike_Click(object sender, EventArgs e)
+        {
+            this.listBoxBikes.Items.Clear();
+
+            foreach (Mountain currentMountain in DataCollection.GetBikeMountainList())
+            {
+                this.listBoxBikes.Items.Add(currentMountain.GetState());
+            }
+        }
+
+        private void buttonPrintElectricBike_Click(object sender, EventArgs e)
+        {
+            this.listBoxBikes.Items.Clear();
+
+            foreach (Electric currentElectric in DataCollection.GetBikeElectricList())
+            {
+                this.listBoxBikes.Items.Add(currentElectric.GetState());
+            }
+        }
+
+        private void buttonPrintHybridBike_Click(object sender, EventArgs e)
+        {
+            this.listBoxBikes.Items.Clear();
+
+            foreach (Hybrid currentHybrid in DataCollection.GetBikeHybridList())
+            {
+                this.listBoxBikes.Items.Add(currentHybrid.GetState());
+            }
+        }
+
+        private Bike GetSelectedBike()
+        {
+
+            //Check if any bike is selected in the ListBox
+            if (listBoxBikes.SelectedIndex != -1)
+            {
+                //Get the index of the selected bike
+                int selectedIndex = listBoxBikes.SelectedIndex;
+
+                //Get the list of bikes from your data collection
+                List<Bike> bikes = DataCollection.GetBikeList();
+
+                //Check if the index is within the range of the list
+                if (selectedIndex >= 0 && selectedIndex < bikes.Count)
+                {
+                    //Return the selected bike
+                    return bikes[selectedIndex];
+                }
+            }
+
+            return null;
+        }
+
+        private string GetBikeType()
+        {
+            // Check if an item is selected in the comboBoxBikeType
+            if (comboBoxBikeType.SelectedIndex != -1)
+            {
+                // Return the selected item as a string
+                return comboBoxBikeType.SelectedItem.ToString();
+            }
+            // If no item is selected, return null or an appropriate default value
+            return null;
+        }
+
+
+        private void buttonTestSpeed_Click(object sender, EventArgs e)
+        {
+            //Get selected Bike
+            string selectedBike = GetBikeType(); //We implement the method to get the bike
+
+            //Get the newSpeed
+            double newSpeed = (double)numericUpDownSpeed.Value;
+
+            //Check if the newSpeed exceeds the maximum speed of each bike
+
+            if (selectedBike != null && selectedBike == "Mountain")
+            {
+                Mountain thisMountain = new Mountain();
+                if (newSpeed > thisMountain.GetMaxSpeed())
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) exceeds the maximum speed of the bike ({thisMountain.GetMaxSpeed()} km/h).");
+                }
+
+                else
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) is within the range");
+                }
+            }
+            else if (selectedBike != null && selectedBike == "Road")
+            {
+                Road thisRoad = new Road();
+                if (newSpeed > thisRoad.GetMaxSpeed())
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) exceeds the maximum speed of the bike ({thisRoad.GetMaxSpeed()} km/h).");
+                }
+
+                else
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) is within the range");
+                }
+
+            }
+            else if (selectedBike != null && selectedBike == "Hybrid")
+            {
+                Hybrid thisHybrid = new Hybrid();
+                if (newSpeed > thisHybrid.GetMaxSpeed())
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) exceeds the maximum speed of the bike ({thisHybrid.GetMaxSpeed()} km/h).");
+                }
+
+                else
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) is within the range");
+                }
+
+            }
+            else if (selectedBike != null && selectedBike == "Electric")
+            {
+                Electric thisElectric = new Electric();
+                if (newSpeed > thisElectric.GetMaxSpeed())
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) exceeds the maximum speed of the bike ({thisElectric.GetMaxSpeed()} km/h).");
+                }
+
+                else
+                {
+                    MessageBox.Show($"The new speed ({newSpeed} km/h) is within the range");
+                }
+            }
+
+        }
+    }
+}
